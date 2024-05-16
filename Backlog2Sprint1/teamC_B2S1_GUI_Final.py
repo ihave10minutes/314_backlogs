@@ -19,7 +19,7 @@ PORT = 8000 # REAPER Local listen port
 msg = float(1) # Trigger TRUE Value
 
 def play_and_pause_func():
-	send_message(PI_A_ADDR, PORT, "/action/40073", msg)
+	send_message(PI_A_ADDR, PORT, "/action/40073", msg) #Changed to Play/Pause instead of Play/Stop
 
 def firesnapshotone():
 	send_message(PI_A_ADDR, PORT, "/action/40161", msg)
