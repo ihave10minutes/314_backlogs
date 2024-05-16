@@ -43,7 +43,6 @@ snapshottwo_btn = tk.Button(main, text="Jump Marker TWO", bg="RED",command=fires
 snapshotthree_btn = tk.Button(main, text="Jump Marker THREE", bg="BLUE",command=firesnapshotthree)
 snapshotfour_btn = tk.Button(main, text="Jump Marker FOUR", bg="YELLOW",command=firesnapshotfour)
 
-
 tabLabel.grid(row=0,column=0,columnspan=2)
 play_and_pause_btn.grid(row=1,column=0,columnspan=2)
 snapshotone_btn.grid(row=2,column=0)
